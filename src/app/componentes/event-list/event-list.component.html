@@ -1,0 +1,66 @@
+<main class="row">
+  <section class="col-4" *ngFor="let event of events">
+    <mat-card  class="m-2">
+      <ngb-carousel class="mb-2">
+          <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+              <img  class="size" src="assets/fiestas.jpg" width="100%">
+            </div>
+            <div class="carousel-caption">
+            </div>
+          </ng-template>
+          <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+              <img  class="size" src="assets/28.jpg" width="100%">
+            </div>
+            <div class="carousel-caption">
+            </div>
+          </ng-template>
+          <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+              <img  class="size" src="assets/ski.jpg" width="100%">
+            </div>
+            <div class="carousel-caption">
+            </div>
+          </ng-template>
+        </ngb-carousel>
+     <section class="row m-2 " *ngIf="event">
+       <section col="col-4 ">
+        <h1 class="p-2"><strong>{{event.name}}</strong></h1>
+       </section>
+       <section class="col-4 "></section>
+      
+     </section>
+     <section class="row">
+      <section class="col-6  text-left">
+        <p class="p-2"><strong>Date:</strong> {{event.eventDate}}</p>
+      </section>
+      <section class="col-6  text-right">
+        <p class="p-2"><strong> State:</strong> {{event.state}}</p>
+      </section>
+     </section>
+     <mat-divider ></mat-divider>
+     <section class="row mt-2 ">
+       <section class="col-6 ">
+        <p class="p-2"><strong>Description:</strong></p>
+       </section>
+       <section class="col-6">
+        <p *ngIf="assistanceEvents==null" class="p-2"><strong>total assists:  0</strong></p>
+        <p *ngIf="assistanceEvents>0" class="p-2"><strong>total assists:  {{event.assistances | totalAssist}}</strong></p>
+      </section>
+    </section>
+    <section class="row m-2 text-center bg">
+      <p class="p-2 ">{{event.description}}</p>
+   </section>
+    <section class="row m-2">
+      <section class="col-4"></section>
+      <section class="col-4">
+            <button  mat-flat-button type="submit" [(ngModel)]="state" ngDefaultControl (click)="assistEvent(event)">{{ event.id | assistance: userEvents}}</button>
+      </section>
+      <section class="col-4"></section>
+   </section>
+  </mat-card>
+  </section>
+</main>
+
+

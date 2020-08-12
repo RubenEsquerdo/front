@@ -1,0 +1,63 @@
+<main>
+    <mat-card  class="bgc border-warning" *ngFor="let story of stories">
+        <section *ngIf="stories.length==0">
+            <p>You do not have any story yet!</p>
+        </section>
+        <section *ngIf="stories.length>0">
+            <section *ngIf="story">
+                <section  class="row mb-2">
+                    <section class="col-3 text-left">
+                    <p *ngIf="activated" class="m-1"><strong>{{userData?.user}}</strong></p>
+                    <p *ngIf="!activated" class="m-1"><strong>{{story.user?.user}}</strong></p>
+                    </section>
+                    <section class="col-6"></section>
+                    <section class="col-3 text-right">
+                        <p class="m-1">{{story.publishDate}}</p> 
+                    </section>    
+                </section>
+                <section  class="row">
+                    <mat-divider></mat-divider>
+                    <section class="col-2 mt-2 mb-2">
+                        <img  class="imgRedonda"src="assets/dv.jpg" width="100%">
+                    </section>
+                    <section class="col-10 mt-2">
+                        <p class="descriptstyle">{{story.content}}</p>
+                    </section>     
+                </section>
+                <section  class="row ">
+                    <section class="col-4"></section>
+                    <mat-divider></mat-divider>
+                    <section class="col-4"></section>
+                    <section class="col-4 mt-1">
+                        <section *ngIf="story.reactions" class="row">
+                            <p class="m-1">{{story.reactions |reactions}}</p>
+                            <section id="changelike" class="col" >
+                                <img  *ngIf="!activated" alt="Cambiar imagen" onmouseout="this.src='assets/megusta.svg';"
+                                onmouseover="this.src='assets/megustahover.svg';" src="assets/megusta.svg" width="50%"
+                                (click)="addReaction(story,0)"/>
+                                <img  *ngIf="activated" alt="Cambiar imagen" src='assets/megustahover.svg'  width="50%"/>
+                            </section>
+                            <p class="m-1">{{story.reactions |rFav}}</p>
+                            <section id="changefav" class="col">
+                                <img  *ngIf="!activated" alt="Cambiar imagen" onmouseout="this.src='assets/corazon.svg';"
+                                   onmouseover="this.src='assets/corazonhover.svg';" src="assets/corazon.svg" width="50%"
+                                   (click)="addReaction(story,1)"/>
+                                <img  *ngIf="activated" alt="Cambiar imagen" src='assets/corazonhover.svg'  width="50%"/>
+                            </section>
+                            
+                            <p class="m-1">{{story.reactions |rHate}}</p>
+                            <section id="changedis" class="col" >
+                                <img *ngIf="!activated" alt="Cambiar imagen" onmouseout="this.src='assets/disgusto.svg';"
+                                       onmouseover="this.src='assets/disgustohover.svg';" src="assets/disgusto.svg" width="50%"
+                                       (click)="addReaction(story,2)"/>
+                                <img  *ngIf="activated" alt="Cambiar imagen" src='assets/disgustohover.svg'  width="50%"/>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+            </section>
+        </section>
+        
+    </mat-card>
+</main>
+

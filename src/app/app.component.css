@@ -1,0 +1,11 @@
+main nav {
+  background-color: green;
+}
+
+main nav a {
+  color: white;
+}
+
+main nav a:hover {
+  color: black;
+}

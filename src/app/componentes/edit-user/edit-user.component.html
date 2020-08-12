@@ -1,0 +1,50 @@
+<mat-card class="m-2" >
+    <form  *ngIf="user" class="text-center m-1" [formGroup]="updateUser">
+        <section class="row">
+            <section class="col-6">
+                <p>
+                    <mat-form-field class="example-full-width">
+                      <mat-label>User Name</mat-label>
+                      <input  [value]="user.user" [(ngModel)]="user.user" formControlName="user" [ngModelOptions]="{standalone: true}" matInput type="text" rows="3" placeholder="User Name">
+                      <mat-error>
+                        Field can not be empty
+                      </mat-error>
+                    </mat-form-field>
+                  </p>
+                  <p>
+                    <mat-form-field class="example-full-width">
+                      <mat-label>Password</mat-label>
+                      <input  matInput  rows="3" [(ngModel)]="user.pass" formControlName="pass" placeholder="Password" [ngModelOptions]="{standalone: true}" [type]="hide ? 'text':'password'" 
+                      [value]="user.pass" >
+                      <mat-icon class="material-icons" matSuffix  (click)="hide = !hide">{{hide ? 'visibility' : 'visibility_off'}}</mat-icon>
+                      <mat-error>
+                        Field can not be empty
+                      </mat-error>
+                    </mat-form-field>
+                  </p>
+                  
+            </section>
+            <section class="col-6">
+                <p>
+                    <mat-form-field class="example-full-width">
+                      <mat-label>Name</mat-label>
+                      <input  [value]="user.name"  [(ngModel)]="user.name" formControlName="name" [ngModelOptions]="{standalone: true}" matInput type="text" rows="3" placeholder="Name">
+                      <mat-error>
+                        Field can not be empty
+                      </mat-error>
+                    </mat-form-field>
+                  </p>
+                  <p>
+                    <mat-form-field class="example-full-width">
+                      <mat-label>Surname</mat-label>
+                      <input  [value]="user.surname"  [(ngModel)]="user.surname" formControlName="surname" [ngModelOptions]="{standalone: true}" matInput type="text" rows="3" placeholder="Surname">
+                      <mat-error>
+                        Field can not be empty
+                      </mat-error>
+                    </mat-form-field>
+                  </p>      
+            </section>
+        </section>
+        <button mat-flat-button type="submit" [disabled]="updateUser.invalid" (click)="updateUserData(user)">Save</button>
+    </form>
+</mat-card>

@@ -1,0 +1,25 @@
+<main >
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="" id="navbarNavAltMarkup">
+      <div class="navbar-nav pt-1">
+        <img  class="nav-item mr-5 ml-5" src="assets/logo.png" width="5%"  alt="Altered"> 
+        <section class="marginl navbar-nav">
+          <a class="nav-item nav-link" (click)="goToStories()">Mis historias <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" (click)="goToThings()">Mis cosas</a>
+          <a class="nav-item nav-link" >Mis Colegas</a>
+          <a class="nav-item nav-link" (click)="goToEvents()">Eventos</a> 
+        </section>
+      </div>
+    </div>
+  </nav>
+  <section class="row">
+    <section class="col-3"></section>
+    <section class="col-6">
+      <app-userdata></app-userdata>
+    </section>
+    <section class="col-3"></section>
+  </section>
+  <section class="row">
+    <router-outlet></router-outlet>
+  </section>
+</main>

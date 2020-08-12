@@ -1,0 +1,7 @@
+main {
+  margin-top: 50px;
+}
+
+main mat-form-field {
+  width: 100%;
+}

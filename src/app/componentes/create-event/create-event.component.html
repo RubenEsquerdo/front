@@ -1,0 +1,68 @@
+<mat-card class="m-2" >
+  <h3><strong>Create an event</strong></h3>
+  <mat-divider></mat-divider>
+  <form class="text-center p-2" id="formulario" [formGroup]="createEvent">
+      <section class="row">
+          <section class="col-6">
+              <p>
+                <mat-form-field class="example-full-width">
+                    <mat-label>Event Name</mat-label>
+                    <input id="name"  matInput type="text" formControlName="name" rows="3" placeholder="User Name">
+                    <mat-error>
+                      El campo no pueden estar vacio
+                    </mat-error>
+                </mat-form-field>
+              </p>
+              <p>
+                <mat-form-field>
+                  <mat-label >Description</mat-label>
+                  <textarea  id="desc"  matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" 
+                  cdkAutosizeMinRows="1" formControlName="description" cdkAutosizeMaxRows="10" placeholder="description"></textarea>
+                  <mat-error>
+                    Fiel can not be empty
+                  </mat-error>
+                </mat-form-field>
+              </p>
+              <p>
+                <mat-form-field appearance="fill">
+                      <mat-label>Choose a date</mat-label>
+                      <input id="date" formControlName="eventDate" matInput [matDatepicker]="picker" >
+                      <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                      <mat-datepicker #picker></mat-datepicker>
+                      <mat-error>
+                        Fiel can not be empty
+                      </mat-error>
+                    </mat-form-field>     
+                </p>
+          </section>
+          <section class="col-6">
+            <ngb-carousel>
+              <ng-template ngbSlide>
+                <div class="picsum-img-wrapper">
+                  <img  class="p-3" src="assets/fiestas.jpg" width="100%">
+                </div>
+                <div class="carousel-caption">
+                </div>
+              </ng-template>
+              <ng-template ngbSlide>
+                <div class="picsum-img-wrapper">
+                  <img  class="p-3" src="assets/28.jpg" width="100%">
+                </div>
+                <div class="carousel-caption">
+                </div>
+              </ng-template>
+              <ng-template ngbSlide>
+                <div class="picsum-img-wrapper">
+                  <img  class="p-3" src="assets/ski.jpg" width="100%">
+                </div>
+                <div class="carousel-caption">
+                </div>
+              </ng-template>
+            </ngb-carousel>
+            
+          </section>
+         
+      </section>
+      <button mat-flat-button type="submit" [disabled]="createEvent.invalid" (click)="addEvent()">Create Event</button>
+  </form>
+</mat-card>

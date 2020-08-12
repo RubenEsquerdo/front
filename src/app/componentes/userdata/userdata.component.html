@@ -1,0 +1,55 @@
+<main *ngIf="userData" class="marg">
+    <section class="row m-1"> 
+        <section class="col-2">
+            <img class="" src="assets/gr.jpg" width="100%">
+        </section>
+        <section class="col-8 ">
+            <section class="row p-2 ">
+                <section class="col-4">
+                    <h1 class="text-left ">{{userData.user}}</h1>
+                    <p>{{userData.name}}</p>
+                </section>
+                <section class="col-2 text-center">
+                    <section class="row-6 mt-3">
+                        <p class="imgRedonda" *ngIf="userData.relationships.length==0"><strong>0</strong></p>
+                        <p class="imgRedonda" *ngIf="userData.relationships.length>0"><strong> {{userData.relationships.length}}</strong></p>   
+                    </section>
+                    <section class="row-6 ">
+                            Friends
+                    </section> 
+                </section>
+                <section class="col-2 text-center ">
+                    <section class="row-6 mt-3">
+                        <p class="imgRedonda" *ngIf="number==0"><strong>0</strong></p>
+                        <p class="imgRedonda" *ngIf="number>0"><strong> {{number}}</strong></p>   
+                    </section>
+                    <section class="row-6">
+                            Stories
+                    </section> 
+                </section>
+                <section class="col-2 text-center ">
+                    <section class="row-6 mt-3">
+                        <p class="imgRedonda" *ngIf="userData.score==0"><strong>0</strong></p>
+                        <p class="imgRedonda" *ngIf="userData.score>0"><strong> {{userData.score}}</strong></p>   
+                    </section>
+                    <section class="row-6 ">
+                            Score
+                    </section> 
+                </section>
+                <section class="col-2 text-center ">
+                    <section class="row-6 mt-3">
+                        <p class="imgRedonda" *ngIf="nEvents==0"><strong>0</strong></p>
+                        <p class="imgRedonda" *ngIf="nEvents>0"><strong> {{nEvents}}</strong></p>   
+                    </section>
+                    <section class="row-6 ">
+                            Events
+                    </section> 
+                </section>
+               
+            </section>  
+        </section>
+        <section class="col-2">
+
+        </section>
+    </section>
+</main>

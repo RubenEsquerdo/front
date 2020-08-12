@@ -1,0 +1,17 @@
+<main>
+  <mat-card class="p-1">
+    <h3 class="m-1"><strong>Create a story</strong></h3>
+    <mat-divider></mat-divider>
+    <form id="formulario" class="text-center m-3" [formGroup]="createStory">
+            <mat-form-field>
+              <mat-label >Type a Message</mat-label>
+              <textarea  id="campo" formControlName="content" matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" 
+              cdkAutosizeMinRows="1" cdkAutosizeMaxRows="10" placeholder="description"  ></textarea>
+              <mat-error>
+                Fiel can not be empty
+              </mat-error>
+            </mat-form-field>
+          </form>
+        <button mat-flat-button type="submit" class="m-1" [disabled]="createStory.invalid" (click)="addstory()">Public Message</button>
+  </mat-card>  
+</main>

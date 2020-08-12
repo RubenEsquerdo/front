@@ -1,0 +1,887 @@
+{
+  "user": {
+    "id": 7,
+    "name": "Jonny Kleins",
+    "surname": "Deep VOL2",
+    "birdthDate": "2020-07-28T22:00:00.000Z",
+    "startDate": "2020-07-30",
+    "user": "BroadCaster",
+    "pass": "1234",
+    "events": [],
+    "relationships": [
+      0,
+      0,
+      0
+    ],
+    "stories": [
+      {
+        "id": 15,
+        "content": "qwerqwerwer",
+        "name": "BroadCaster",
+        "date": "2020/08/09",
+        "reactions": []
+      },
+      {
+        "id": 16,
+        "content": "qwerqwerqwer",
+        "name": "BroadCaster",
+        "date": "2020/08/09",
+        "reactions": []
+      }
+    ],
+    "reactions": [],
+    "assistances": []
+  },
+  "events": [
+    {
+      "id": 1,
+      "description": "Fiesta en la casa de Pepe a las 23:00 \n pd: Solo zumos",
+      "name": "House Party",
+      "user": {
+        "id": 7,
+        "name": "Jonny Kleins",
+        "surname": "Deep VOL2",
+        "birdthDate": "2020-07-28T22:00:00.000Z",
+        "startDate": "2020-07-30",
+        "user": "BroadCaster",
+        "password": "1234",
+        "events": [],
+        "relationships": [
+          0,
+          0,
+          0
+        ],
+        "stories": [
+          {
+            "id": 15,
+            "content": "qwerqwerwer",
+            "name": "BroadCaster",
+            "date": "2020/08/09",
+            "reactions": []
+          },
+          {
+            "id": 16,
+            "content": "qwerqwerqwer",
+            "name": "BroadCaster",
+            "date": "2020/08/09",
+            "reactions": []
+          }
+        ],
+        "reactions": [],
+        "assistances": []
+      },
+      "eventDate": "8/28/2020",
+      "state": 0,
+      "assistances": []
+    },
+    {
+      "id": 2,
+      "description": "Sierra nevada:\nRuta del Águila viernes 7 a las 7:00.\nanimate!",
+      "name": "Senderismo por la montaña",
+      "user": {
+        "id": 7,
+        "name": "Jonny Kleins",
+        "surname": "Deep VOL2",
+        "birdthDate": "2020-07-28T22:00:00.000Z",
+        "startDate": "2020-07-30",
+        "user": "BroadCaster",
+        "password": "1234",
+        "events": [],
+        "relationships": [
+          0,
+          0,
+          0
+        ],
+        "stories": [
+          {
+            "id": 15,
+            "content": "qwerqwerwer",
+            "name": "BroadCaster",
+            "date": "2020/08/09",
+            "reactions": []
+          },
+          {
+            "id": 16,
+            "content": "qwerqwerqwer",
+            "name": "BroadCaster",
+            "date": "2020/08/09",
+            "reactions": []
+          }
+        ],
+        "reactions": [],
+        "assistances": []
+      },
+      "eventDate": "8/7/2020",
+      "state": 0,
+      "assistances": []
+    }
+  ],
+  "story-list": [
+    {
+      "id": 11,
+      "content": "hola que tal? os voy a contar mi historia...",
+      "name": "Max",
+      "date": "2020/08/04",
+      "reactions": [
+        {
+          "id": 0,
+          "user": {
+            "name": "Jonny",
+            "surname": "Flichman",
+            "birdthDate": "2020-07-23",
+            "startDate": "2020-07-30",
+            "user": "BroadCaster",
+            "pass": "1234",
+            "image": "imagen1",
+            "id": 7,
+            "relationships": [
+              0,
+              0,
+              0
+            ],
+            "stories": [
+              {
+                "id": 15,
+                "content": "qwerqwerwer",
+                "name": "user1",
+                "date": "2020/08/09",
+                "reactions": []
+              },
+              {
+                "id": 16,
+                "content": "qwerqwerqwer",
+                "name": "user1",
+                "date": "2020/08/09",
+                "reactions": []
+              }
+            ]
+          },
+          "reactionType": 0
+        },
+        {
+          "id": 0,
+          "user": {
+            "name": "Jonny",
+            "surname": "Flichman",
+            "birdthDate": "2020-07-23",
+            "startDate": "2020-07-30",
+            "user": "BroadCaster",
+            "pass": "1234",
+            "image": "imagen1",
+            "id": 7,
+            "relationships": [
+              0,
+              0,
+              0
+            ],
+            "stories": [
+              {
+                "id": 15,
+                "content": "qwerqwerwer",
+                "name": "user1",
+                "date": "2020/08/09",
+                "reactions": []
+              },
+              {
+                "id": 16,
+                "content": "qwerqwerqwer",
+                "name": "user1",
+                "date": "2020/08/09",
+                "reactions": []
+              }
+            ]
+          },
+          "reactionType": 0
+        },
+        {
+          "id": 0,
+          "user": {
+            "name": "Jonny",
+            "surname": "Flichman",
+            "birdthDate": "2020-07-23",
+            "startDate": "2020-07-30",
+            "user": "BroadCaster",
+            "pass": "1234",
+            "image": "imagen1",
+            "id": 7,
+            "relationships": [
+              0,
+              0,
+              0
+            ],
+            "stories": [
+              {
+                "id": 15,
+                "content": "qwerqwerwer",
+                "name": "user1",
+                "date": "2020/08/09",
+                "reactions": []
+              },
+              {
+                "id": 16,
+                "content": "qwerqwerqwer",
+                "name": "user1",
+                "date": "2020/08/09",
+                "reactions": []
+              }
+            ]
+          },
+          "reactionType": 1
+        },
+        {
+          "id": 0,
+          "user": {
+            "name": "Jonny",
+            "surname": "Flichman",
+            "birdthDate": "2020-07-23",
+            "startDate": "2020-07-30",
+            "user": "BroadCaster",
+            "pass": "1234",
+            "image": "assets/gr.jpg",
+            "id": 7,
+            "relationships": [
+              0,
+              0,
+              0
+            ],
+            "stories": [
+              {
+                "id": 15,
+                "content": "qwerqwerwer",
+                "name": "user1",
+                "date": "2020/08/09",
+                "reactions": []
+              },
+              {
+                "id": 16,
+                "content": "qwerqwerqwer",
+                "name": "user1",
+                "date": "2020/08/09",
+                "reactions": []
+              }
+            ]
+          },
+          "reactionType": 0
+        },
+        {
+          "id": 0,
+          "user": {
+            "name": "Jonny",
+            "surname": "Flichman",
+            "birdthDate": "2020-07-23",
+            "startDate": "2020-07-30",
+            "user": "BroadCaster",
+            "pass": "1234",
+            "image": "assets/gr.jpg",
+            "id": 7,
+            "relationships": [
+              0,
+              0,
+              0
+            ],
+            "stories": [
+              {
+                "id": 15,
+                "content": "qwerqwerwer",
+                "name": "user1",
+                "date": "2020/08/09",
+                "reactions": []
+              },
+              {
+                "id": 16,
+                "content": "qwerqwerqwer",
+                "name": "user1",
+                "date": "2020/08/09",
+                "reactions": []
+              }
+            ]
+          },
+          "reactionType": 1
+        },
+        {
+          "id": 0,
+          "user": {
+            "name": "Jonny",
+            "surname": "Flichman",
+            "birdthDate": "2020-07-23",
+            "startDate": "2020-07-30",
+            "user": "BroadCaster",
+            "pass": "1234",
+            "image": "assets/gr.jpg",
+            "id": 7,
+            "relationships": [
+              0,
+              0,
+              0
+            ],
+            "stories": [
+              {
+                "id": 15,
+                "content": "qwerqwerwer",
+                "name": "user1",
+                "date": "2020/08/09",
+                "reactions": []
+              },
+              {
+                "id": 16,
+                "content": "qwerqwerqwer",
+                "name": "user1",
+                "date": "2020/08/09",
+                "reactions": []
+              }
+            ]
+          },
+          "reactionType": 1
+        },
+        {
+          "id": 0,
+          "user": {
+            "name": "Jonny",
+            "surname": "Flichman",
+            "birdthDate": "2020-07-23",
+            "startDate": "2020-07-30",
+            "user": "BroadCaster",
+            "pass": "1234",
+            "image": "assets/gr.jpg",
+            "id": 7,
+            "relationships": [
+              0,
+              0,
+              0
+            ],
+            "stories": [
+              {
+                "id": 15,
+                "content": "qwerqwerwer",
+                "name": "user1",
+                "date": "2020/08/09",
+                "reactions": []
+              },
+              {
+                "id": 16,
+                "content": "qwerqwerqwer",
+                "name": "user1",
+                "date": "2020/08/09",
+                "reactions": []
+              }
+            ]
+          },
+          "reactionType": 2
+        },
+        {
+          "id": 0,
+          "user": {
+            "name": "Jonny",
+            "surname": "Flichman",
+            "birdthDate": "2020-07-23",
+            "startDate": "2020-07-30",
+            "user": "BroadCaster",
+            "pass": "1234",
+            "image": "assets/gr.jpg",
+            "id": 7,
+            "relationships": [
+              0,
+              0,
+              0
+            ],
+            "stories": [
+              {
+                "id": 15,
+                "content": "qwerqwerwer",
+                "name": "user1",
+                "date": "2020/08/09",
+                "reactions": []
+              },
+              {
+                "id": 16,
+                "content": "qwerqwerqwer",
+                "name": "user1",
+                "date": "2020/08/09",
+                "reactions": []
+              }
+            ]
+          },
+          "reactionType": 2
+        },
+        {
+          "id": 0,
+          "user": {
+            "id": 7,
+            "name": "Jonny",
+            "surname": "Deep",
+            "birdthDate": "2020-07-23",
+            "startDate": "2020-07-30",
+            "user": "BroadCaster",
+            "password": "1234",
+            "events": [],
+            "relationships": [
+              0,
+              0,
+              0
+            ],
+            "stories": [
+              {
+                "id": 15,
+                "content": "qwerqwerwer",
+                "name": "BroadCaster",
+                "date": "2020/08/09",
+                "reactions": []
+              },
+              {
+                "id": 16,
+                "content": "qwerqwerqwer",
+                "name": "BroadCaster",
+                "date": "2020/08/09",
+                "reactions": []
+              }
+            ],
+            "reactions": [],
+            "assistances": []
+          },
+          "reactionType": 1
+        },
+        {
+          "id": 0,
+          "user": {
+            "id": 7,
+            "name": "Jonny",
+            "surname": "Deep",
+            "birdthDate": "2020-07-23",
+            "startDate": "2020-07-30",
+            "user": "BroadCaster",
+            "password": "1234",
+            "events": [],
+            "relationships": [
+              0,
+              0,
+              0
+            ],
+            "stories": [
+              {
+                "id": 15,
+                "content": "qwerqwerwer",
+                "name": "BroadCaster",
+                "date": "2020/08/09",
+                "reactions": []
+              },
+              {
+                "id": 16,
+                "content": "qwerqwerqwer",
+                "name": "BroadCaster",
+                "date": "2020/08/09",
+                "reactions": []
+              }
+            ],
+            "reactions": [],
+            "assistances": []
+          },
+          "reactionType": 1
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "content": "ENEMIGO DEL ESTADO: \n primera parte",
+      "name": "Romita",
+      "date": "2020/08/01",
+      "reactions": [
+        {
+          "id": 0,
+          "user": {
+            "name": "Jonny",
+            "surname": "Flichman",
+            "birdthDate": "2020-07-23",
+            "startDate": "2020-07-30",
+            "user": "BroadCaster",
+            "pass": "1234",
+            "image": "imagen1",
+            "id": 7,
+            "relationships": [
+              0,
+              0,
+              0
+            ],
+            "stories": [
+              {
+                "id": 15,
+                "content": "qwerqwerwer",
+                "name": "user1",
+                "date": "2020/08/09",
+                "reactions": []
+              },
+              {
+                "id": 16,
+                "content": "qwerqwerqwer",
+                "name": "user1",
+                "date": "2020/08/09",
+                "reactions": []
+              }
+            ]
+          },
+          "reactionType": 0
+        },
+        {
+          "id": 0,
+          "user": {
+            "name": "Jonny",
+            "surname": "Flichman",
+            "birdthDate": "2020-07-23",
+            "startDate": "2020-07-30",
+            "user": "BroadCaster",
+            "pass": "1234",
+            "image": "imagen1",
+            "id": 7,
+            "relationships": [
+              0,
+              0,
+              0
+            ],
+            "stories": [
+              {
+                "id": 15,
+                "content": "qwerqwerwer",
+                "name": "user1",
+                "date": "2020/08/09",
+                "reactions": []
+              },
+              {
+                "id": 16,
+                "content": "qwerqwerqwer",
+                "name": "user1",
+                "date": "2020/08/09",
+                "reactions": []
+              }
+            ]
+          },
+          "reactionType": 1
+        },
+        {
+          "id": 0,
+          "user": {
+            "name": "Jonny",
+            "surname": "Flichman",
+            "birdthDate": "2020-07-23",
+            "startDate": "2020-07-30",
+            "user": "BroadCaster",
+            "pass": "1234",
+            "image": "imagen1",
+            "id": 7,
+            "relationships": [
+              0,
+              0,
+              0
+            ],
+            "stories": [
+              {
+                "id": 15,
+                "content": "qwerqwerwer",
+                "name": "user1",
+                "date": "2020/08/09",
+                "reactions": []
+              },
+              {
+                "id": 16,
+                "content": "qwerqwerqwer",
+                "name": "user1",
+                "date": "2020/08/09",
+                "reactions": []
+              }
+            ]
+          },
+          "reactionType": 1
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "content": "Geoff Johns es un escritor contemporáneo de historietas, conocido principalmente por su trabajo para la editorial DC Comics. Fue Presidente de DC Entertainment y colíder del DCEU. Ha escrito historias muy aclamadas, estelarizadas por Superman, Linterna Verde, Flash, Teen Titans y La Sociedad de la Justicia de América.",
+      "name": "Geoff Johns",
+      "date": "2020/08/04",
+      "reactions": [
+        {
+          "id": 0,
+          "user": {
+            "name": "Jonny",
+            "surname": "Flichman",
+            "birdthDate": "2020-07-23",
+            "startDate": "2020-07-30",
+            "user": "BroadCaster",
+            "pass": "1234",
+            "image": "imagen1",
+            "id": 7,
+            "relationships": [
+              0,
+              0,
+              0
+            ],
+            "stories": [
+              {
+                "id": 15,
+                "content": "qwerqwerwer",
+                "name": "user1",
+                "date": "2020/08/09",
+                "reactions": []
+              },
+              {
+                "id": 16,
+                "content": "qwerqwerqwer",
+                "name": "user1",
+                "date": "2020/08/09",
+                "reactions": []
+              }
+            ]
+          },
+          "reactionType": 2
+        },
+        {
+          "id": 0,
+          "user": {
+            "name": "Jonny",
+            "surname": "Flichman",
+            "birdthDate": "2020-07-23",
+            "startDate": "2020-07-30",
+            "user": "BroadCaster",
+            "pass": "1234",
+            "image": "assets/gr.jpg",
+            "id": 7,
+            "relationships": [
+              0,
+              0,
+              0
+            ],
+            "stories": [
+              {
+                "id": 15,
+                "content": "qwerqwerwer",
+                "name": "user1",
+                "date": "2020/08/09",
+                "reactions": []
+              },
+              {
+                "id": 16,
+                "content": "qwerqwerqwer",
+                "name": "user1",
+                "date": "2020/08/09",
+                "reactions": []
+              }
+            ]
+          },
+          "reactionType": 0
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "content": "rqwerqwer",
+      "name": "FERNANDES PONSSA",
+      "date": "2020/08/09",
+      "reactions": [
+        {
+          "id": 0,
+          "user": {
+            "name": "Jonny",
+            "surname": "Flichman",
+            "birdthDate": "2020-07-23",
+            "startDate": "2020-07-30",
+            "user": "BroadCaster",
+            "pass": "1234",
+            "image": "imagen1",
+            "id": 7,
+            "relationships": [
+              0,
+              0,
+              0
+            ],
+            "stories": [
+              {
+                "id": 15,
+                "content": "qwerqwerwer",
+                "name": "user1",
+                "date": "2020/08/09",
+                "reactions": []
+              },
+              {
+                "id": 16,
+                "content": "qwerqwerqwer",
+                "name": "user1",
+                "date": "2020/08/09",
+                "reactions": []
+              }
+            ]
+          },
+          "reactionType": 1
+        },
+        {
+          "id": 0,
+          "user": {
+            "name": "Jonny",
+            "surname": "Flichman",
+            "birdthDate": "2020-07-23",
+            "startDate": "2020-07-30",
+            "user": "BroadCaster",
+            "pass": "1234",
+            "image": "assets/gr.jpg",
+            "id": 7,
+            "relationships": [
+              0,
+              0,
+              0
+            ],
+            "stories": [
+              {
+                "id": 15,
+                "content": "qwerqwerwer",
+                "name": "user1",
+                "date": "2020/08/09",
+                "reactions": []
+              },
+              {
+                "id": 16,
+                "content": "qwerqwerqwer",
+                "name": "user1",
+                "date": "2020/08/09",
+                "reactions": []
+              }
+            ]
+          },
+          "reactionType": 0
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "content": "qwerqwerwer",
+      "name": "user1",
+      "date": "2020/08/09",
+      "reactions": [
+        {
+          "id": 0,
+          "user": {
+            "name": "Jonny",
+            "surname": "Flichman",
+            "birdthDate": "2020-07-23",
+            "startDate": "2020-07-30",
+            "user": "BroadCaster",
+            "pass": "1234",
+            "image": "imagen1",
+            "id": 7,
+            "relationships": [
+              0,
+              0,
+              0
+            ],
+            "stories": [
+              {
+                "id": 15,
+                "content": "qwerqwerwer",
+                "name": "user1",
+                "date": "2020/08/09",
+                "reactions": []
+              },
+              {
+                "id": 16,
+                "content": "qwerqwerqwer",
+                "name": "user1",
+                "date": "2020/08/09",
+                "reactions": []
+              }
+            ]
+          },
+          "reactionType": 0
+        },
+        {
+          "id": 0,
+          "user": {
+            "name": "Jonny",
+            "surname": "Flichman",
+            "birdthDate": "2020-07-23",
+            "startDate": "2020-07-30",
+            "user": "BroadCaster",
+            "pass": "1234",
+            "image": "assets/gr.jpg",
+            "id": 7,
+            "relationships": [
+              0,
+              0,
+              0
+            ],
+            "stories": [
+              {
+                "id": 15,
+                "content": "qwerqwerwer",
+                "name": "user1",
+                "date": "2020/08/09",
+                "reactions": []
+              },
+              {
+                "id": 16,
+                "content": "qwerqwerqwer",
+                "name": "user1",
+                "date": "2020/08/09",
+                "reactions": []
+              }
+            ]
+          },
+          "reactionType": 2
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "content": "qwerqwerqwer",
+      "name": "user1",
+      "date": "2020/08/09",
+      "reactions": [
+        {
+          "id": 0,
+          "user": {
+            "name": "Jonny",
+            "surname": "Flichman",
+            "birdthDate": "2020-07-23",
+            "startDate": "2020-07-30",
+            "user": "BroadCaster",
+            "pass": "1234",
+            "image": "assets/gr.jpg",
+            "id": 7,
+            "relationships": [
+              0,
+              0,
+              0
+            ],
+            "stories": [
+              {
+                "id": 15,
+                "content": "qwerqwerwer",
+                "name": "user1",
+                "date": "2020/08/09",
+                "reactions": []
+              },
+              {
+                "id": 16,
+                "content": "qwerqwerqwer",
+                "name": "user1",
+                "date": "2020/08/09",
+                "reactions": []
+              }
+            ]
+          },
+          "reactionType": 1
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "content": "qwerqwerqwerqwer",
+      "name": "BroadCaster",
+      "date": "2020/08/09",
+      "reactions": []
+    },
+    {
+      "id": 18,
+      "content": "wqerqwerqwer",
+      "name": "BroadCaster",
+      "date": "2020/8/5",
+      "reactions": []
+    }
+  ]
+}
